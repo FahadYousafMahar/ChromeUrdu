@@ -1,0 +1,37 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@font-face {
+    font-family: 'Urdu';
+    src: local('Jameel Noori Nastaleeq'),url('chrome-extension://__MSG_@@extension_id__/src/inject/Mehr.ttf');
+    /* Mehr Nastalique Font - Courtesy of ITU Center for Speach And Lanuage Technologies - csalt.itu.edu.pk */
+    unicode-range: U+0600-06FF;
+}
+@font-face {
+    font-family: 'Urdu';
+    src: local('Arial'),local('Calibri');
+    unicode-range: U+0020-007F;
+}
+:lang(ur) 	{
+	font-family: 'Urdu'!important;
+	direction:rtl!important;
+	font-size: 1.1em!important;
+}
+
+*[dir="rtl"], .tweet-text-rtl, .u-dir[dir="rtl"] {
+	font-family: 'Urdu'!important;
+	direction:rtl!important;
+	font-size: 1.1em!important;
+}
+
+._5p3y[dir="ltr"] *[dir="rtl"] {
+	font-family: 'Urdu'!important;
+	font-size: 1.1em!important;
+	direction:rtl!important;
+}
+
+._5p3y[dir="ltr"] *[dir="rtl"] a {
+	font-size: 1.1em!important;
+	line-height: 2em!important;
+}
+
