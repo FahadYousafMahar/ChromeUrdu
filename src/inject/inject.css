@@ -12,18 +12,6 @@
     src: local('Arial'),local('Calibri');
     unicode-range: U+0020-007F;
 }
-:lang(ur) 	{
-	font-family: 'Urdu'!important;
-	direction:rtl!important;
-	font-size: 1.1em!important;
-}
-
-*[dir="rtl"], .tweet-text-rtl, .u-dir[dir="rtl"] {
-	font-family: 'Urdu'!important;
-	direction:rtl!important;
-	font-size: 1.1em!important;
-}
-
 ._5p3y[dir="ltr"] *[dir="rtl"] {
 	font-family: 'Urdu'!important;
 	font-size: 1.1em!important;

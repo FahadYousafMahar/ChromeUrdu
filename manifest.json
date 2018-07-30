@@ -37,10 +37,10 @@
       "48": "icons/icon48.png"
    },
    "manifest_version": 2,
-   "name": "Urdu",
+   "name": "Urdu for Chrome",
    "short_name": "Urdu",
    "permissions": [ "contentSettings", "*://*/*" ],
-   "version": "2.0.6.2",
+   "version": "2.1",
    "web_accessible_resources": [ "src/inject/*.ttf" ],
    "incognito":"not_allowed"
 }

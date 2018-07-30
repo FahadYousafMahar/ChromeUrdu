@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-
-<head><link rel="stylesheet" href="./css/font-awesome.min.css">
+<head>
    <style>
 </style> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Security-Policy" media-src *">
+    <meta http-equiv="Content-Security-Policy" "media-src *">
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
     <title>Urdu Notepad</title>
 </head>
 
@@ -22,215 +23,216 @@
                 <button style="" type="button" id="clearAll">Clear All</button>
                 <button style="" type="button" title="Shrink letters" id="shrink">-</button>
                 <button style="" type="button" title="Enlarge letters" id="enlarge">+</button>
-                <button style="" type="button" title="Help" class="btn-help">| About & Help |</button>
+                <button style="" type="button" title="Help" class="btn-help"> About & Help </button>
             </div>
         </form>
         <textarea id="editor" name="editor" dir="rtl" style="font-size: 20px;width:100%;height:100%;"></textarea>
         <span id="response"></span>
         <div class="help" style="overflow: hidden; display: none;">
-            <button type="button" title="Help" class="btn-help">X</button>
-            <h4 style="font-size:1em;">Urdu for Chrome by:</h4>
-           <a href="https://www.github.com/fahadyousafmahar"> <h2 align="center" style="color:blue; font-size: 20px;">Fahad Yousaf Mahar</h2>	</a><h4 align="center" style=""><em>Noob Programmer &amp; Web Developer</em></h4><br><div class="foo" ><a class="foo" href="http://facebook.com/Fahad3267"><h4><i class="fa fa-facebook fa-2x" aria-hidden="true" ></i> Facebook </a> &nbsp;&nbsp;&nbsp;&nbsp;<a class="foo" href="https://www.github.com/fahadyousafmahar"><i class="fa fa-github fa-2x" aria-hidden="true"></i>Github</h4></a></div> </div> <button style="cursor:pointer;" class="hide-keyboard">Click here to open UrduKeyboard</button>
+    <button type="button" title="Help" class="btn-help">X</button>
+    <h4  class="main text-center">Urdu for Chrome developed by</h4>
+    <a href="https://github.com/fahadyousafmahar/"> <h4 class="text-center main"  align="center">Fahad Yousaf Mahar</h4></a><br><div class="faw text-center" ><h4><a class="faw" href="https://github.com/fahadyousafmahar/ChromeUrdu" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="faw" href="https://webit.pk" target="_blank"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;  <a class="foo" href="http://facebook.com/Fahad3267" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true" ></i></a> &nbsp;&nbsp;&nbsp;&nbsp;  <a class="faw" href="https://www.instagram.com/fahadyousafmahar/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></h4></div>
+            </div> <button style="cursor:pointer;" class="hide-keyboard">Click here to open UrduKeyboard</button>
         <div id="keyboard"><div><p style="color:white;text-align:center;">Press <span style="background;black" class="button">Shift</span> for additional Urdu letters that are not visible on the keyboard.</p></div><div id="branah-keyboard">
                 <button id="branah-k0" class="branah-key">
                     <div class="branah-label-reference">`</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;؏</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;؏</div>
                 </button>
                 <button id="branah-k1" class="branah-key">
                     <div class="branah-label-reference">1</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۱</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۱</div>
                 </button>
                 <button id="branah-k2" class="branah-key">
                     <div class="branah-label-reference">2</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۲</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۲</div>
                 </button>
                 <button id="branah-k3" class="branah-key">
                     <div class="branah-label-reference">3</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۳</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۳</div>
                 </button>
                 <button id="branah-k4" class="branah-key">
                     <div class="branah-label-reference">4</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۴</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۴</div>
                 </button>
                 <button id="branah-k5" class="branah-key">
                     <div class="branah-label-reference">5</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۵</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۵</div>
                 </button>
                 <button id="branah-k6" class="branah-key">
                     <div class="branah-label-reference">6</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;٦</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;٦</div>
                 </button>
                 <button id="branah-k7" class="branah-key">
                     <div class="branah-label-reference">7</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۷</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۷</div>
                 </button>
                 <button id="branah-k8" class="branah-key">
                     <div class="branah-label-reference">8</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۸</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۸</div>
                 </button>
                 <button id="branah-k9" class="branah-key">
                     <div class="branah-label-reference">9</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۹</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۹</div>
                 </button>
                 <button id="branah-k10" class="branah-key">
                     <div class="branah-label-reference">0</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۰</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۰</div>
                 </button>
                 <button id="branah-k11" class="branah-key">
                     <div class="branah-label-reference">-</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;-</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;-</div>
                 </button>
                 <button id="branah-k12" class="branah-key">
                     <div class="branah-label-reference">=</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;=</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;=</div>
                 </button>
                 <button id="branah-backspace"><span>X></span></button>
                 <div class="branah-clear"></div>
                 <button id="branah-tab"><span>Tab</span></button>
                 <button id="branah-k13" class="branah-key">
                     <div class="branah-label-reference">q</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ق</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ق</div>
                 </button>
                 <button id="branah-k14" class="branah-key">
                     <div class="branah-label-reference">w</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;و</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;و</div>
                 </button>
                 <button id="branah-k15" class="branah-key">
                     <div class="branah-label-reference">e</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ع</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ع</div>
                 </button>
                 <button id="branah-k16" class="branah-key">
                     <div class="branah-label-reference">r</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ر</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ر</div>
                 </button>
                 <button id="branah-k17" class="branah-key">
                     <div class="branah-label-reference">t</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ت</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ت</div>
                 </button>
                 <button id="branah-k18" class="branah-key">
                     <div class="branah-label-reference">y</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ے</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ے</div>
                 </button>
                 <button id="branah-k19" class="branah-key">
                     <div class="branah-label-reference">u</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ء</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ء</div>
                 </button>
                 <button id="branah-k20" class="branah-key">
                     <div class="branah-label-reference">i</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ی</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ی</div>
                 </button>
                 <button id="branah-k21" class="branah-key">
                     <div class="branah-label-reference">o</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ہ</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ہ</div>
                 </button>
                 <button id="branah-k22" class="branah-key">
                     <div class="branah-label-reference">p</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;پ</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;پ</div>
                 </button>
                 <button id="branah-k23" class="branah-key">
                     <div class="branah-label-reference">[</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;﷽</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;﷽</div>
                 </button>
                 <button id="branah-k24" class="branah-key">
                     <div class="branah-label-reference">]</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ﷲ</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ﷲ</div>
                 </button>
                 <button id="branah-k25">
                     <div class="branah-label-reference">\</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;÷</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;÷</div>
                 </button>
                 <div class="branah-clear"></div>
                 <button id="branah-caps-lock"><span>Caps Lock</span></button>
                 <button id="branah-k26" class="branah-key">
                     <div class="branah-label-reference">a</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ا</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ا</div>
                 </button>
                 <button id="branah-k27" class="branah-key">
                     <div class="branah-label-reference">s</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;س</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;س</div>
                 </button>
                 <button id="branah-k28" class="branah-key">
                     <div class="branah-label-reference">d</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;د</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;د</div>
                 </button>
                 <button id="branah-k29" class="branah-key">
                     <div class="branah-label-reference">f</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ف</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ف</div>
                 </button>
                 <button id="branah-k30" class="branah-key">
                     <div class="branah-label-reference">g</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;گ</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;گ</div>
                 </button>
                 <button id="branah-k31" class="branah-key">
                     <div class="branah-label-reference">h</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ح</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ح</div>
                 </button>
                 <button id="branah-k32" class="branah-key">
                     <div class="branah-label-reference">j</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ج</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ج</div>
                 </button>
                 <button id="branah-k33" class="branah-key">
                     <div class="branah-label-reference">k</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ک</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ک</div>
                 </button>
                 <button id="branah-k34" class="branah-key">
                     <div class="branah-label-reference">l</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ل</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ل</div>
                 </button>
                 <button id="branah-k35" class="branah-key">
                     <div class="branah-label-reference">;</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;؛</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;؛</div>
                 </button>
                 <button id="branah-k36" class="branah-key">
                     <div class="branah-label-reference">'</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;؁</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;؁</div>
                 </button>
                 <button id="branah-enter" class="branah-enter"><span>Enter</span></button>
                 <div class="branah-clear"></div>
                 <button id="branah-left-shift"><span>Shift</span></button>
                 <button id="branah-k47" class="branah-key">
                     <div class="branah-label-reference">\</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;÷</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;÷</div>
                 </button>
                 <button id="branah-k37" class="branah-key">
                     <div class="branah-label-reference">z</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ز</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ز</div>
                 </button>
                 <button id="branah-k38" class="branah-key">
                     <div class="branah-label-reference">x</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ش</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ش</div>
                 </button>
                 <button id="branah-k39" class="branah-key">
                     <div class="branah-label-reference">c</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;چ</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;چ</div>
                 </button>
                 <button id="branah-k40" class="branah-key">
                     <div class="branah-label-reference">v</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ط</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ط</div>
                 </button>
                 <button id="branah-k41" class="branah-key">
                     <div class="branah-label-reference">b</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ب</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ب</div>
                 </button>
                 <button id="branah-k42" class="branah-key">
                     <div class="branah-label-reference">n</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;ن</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;ن</div>
                 </button>
                 <button id="branah-k43" class="branah-key">
                     <div class="branah-label-reference">m</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;م</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;م</div>
                 </button>
                 <button id="branah-k44" class="branah-key">
                     <div class="branah-label-reference">,</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;،</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;،</div>
                 </button>
                 <button id="branah-k45" class="branah-key">
                     <div class="branah-label-reference">.</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;۔</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;۔</div>
                 </button>
                 <button id="branah-k46" class="branah-key">
                     <div class="branah-label-reference">/</div>
-                    <div class="branah-label-natural" style="font-size:10px;">&nbsp;/</div>
+                    <div class="branah-label-natural" style="font-size:18px;">&nbsp;/</div>
                 </button>
                 <button id="branah-right-shift"><span>Shift</span></button>
                 <div class="branah-clear"></div>
@@ -245,8 +247,8 @@
             </div>
         </div>
     </div>
- <div><a class="myButton" href="http://www.github.com/fahadyousafmahar/chromerdu/">
-  <p style="color:white;text-align:center; font-family:'Mehr';font-size: 20px;"> Urdu for Chrome - by Fahad Yousaf Mahar</p></a></div>   <script type="text/javascript" src="js/jquery.min.js"></script>
+ <div><a href="http://www.github.com/fahadyousafmahar/chromeurdu/">
+  <p style="padding:5px;color:white;text-align:center;font-family:Urdu;font-size: 1.1em;"> اردو برائے گوگل کروم - منجانب : فہد یوسف مہار</p></a></div>   <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/popup.js"></script>    <script type="text/javascript" src="js/index.js"></script>
 </body>
 

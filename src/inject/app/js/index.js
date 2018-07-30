@@ -368,9 +368,9 @@ branah.keyboard.prototype.drawKeyboard = function() {
         if (this.prev != "") { k = branah.layout.parser.getMappedValue(this.currentLayout.deadkeys, k, this.prev) }
         if (!h) { k = this.customDrawKeyboard(k);
             if (k == "") { k = "&nbsp;" }
-            d = '<div class="branah-label-reference">' + branah.layout.parser.getKeyCode(this.defaultLayout.keys, 0, f.i) + '</div><div class="branah-label-natural" style="font-size:' + this.fontSize + 'px;">&nbsp;' + k + "</div>" } else {
+            d = '<div class="branah-label-reference">' + branah.layout.parser.getKeyCode(this.defaultLayout.keys, 0, f.i) + '</div><div class="branah-label-natural" style="font-size: 18px;">&nbsp;' + k + "</div>" } else {
             if (k == "") { k = "&nbsp;" }
-            d = '<div class="branah-label-reference">' + branah.layout.parser.getKeyCode(this.defaultLayout.keys, 0, f.i) + '</div><div class="branah-label-shift" style="font-size:' + this.fontSize + 'px;">&nbsp;' + k + "</div>" }
+            d = '<div class="branah-label-reference">' + branah.layout.parser.getKeyCode(this.defaultLayout.keys, 0, f.i) + '</div><div class="branah-label-shift" style="font-size:18px;">&nbsp;' + k + "</div>" }
         document.getElementById("branah-" + f.i).innerHTML = d }
     $("#branah-left-ctrl").removeClass();
     $("#branah-right-ctrl").removeClass();

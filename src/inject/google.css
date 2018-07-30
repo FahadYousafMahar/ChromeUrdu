@@ -1,9 +1,22 @@
+:lang(ur) 	{
+	font-family: 'Urdu'!important;
+	direction:rtl;
+    line-height: 2em!important;
+
+}
+
+*[dir="rtl"], .tweet-text-rtl, .u-dir[dir="rtl"] {
+	font-family: 'Urdu'!important;
+	direction:rtl;
+    line-height: 2em!important;
+
+}
 [dir='rtl'] {
 	font-size:1em;
     line-height: 1.5em !important;
 }
 input[dir='rtl'] {
-    font-size: 0.5em;
+    font-size: 1.5em;
     line-height: 1.5em !important;
 
 }
