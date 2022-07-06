@@ -1,6 +1,3 @@
-/**
- * Place your custom CSS styles here.
- **/
 @font-face {
     font-family: 'Urdu';
     src: local('Jameel Noori Nastaleeq'),url('chrome-extension://__MSG_@@extension_id__/src/inject/Mehr.ttf');
@@ -12,6 +9,18 @@
     src: local('Arial'),local('Calibri');
     unicode-range: U+0020-007F;
 }
+
+:lang(ur) 	{
+    font-family: 'Urdu'!important;
+    direction:rtl;
+}
+*[dir="rtl"]{
+    font-family: 'Urdu'!important;
+    direction:rtl;
+}
+#facebook .system-fonts--body div{
+    font-family: Urdu, Helvetica, 'inherit' !important;
+}
 ._5p3y[dir="ltr"] *[dir="rtl"] {
 	font-family: 'Urdu'!important;
 	font-size: 1.1em!important;
@@ -22,4 +31,3 @@
 	font-size: 1.1em!important;
 	line-height: 2em!important;
 }
-
